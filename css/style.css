@@ -1,7 +1,6 @@
 /********************************
             colori buttons
 ************************************/
-
 .buttons{
     color: #cd3d0f;
     color: #2d64e6;
@@ -13,8 +12,7 @@
 /********************************
             colori background
 ************************************/
-
-.buttons{
+.backgroundc{
     color: #0000;
     color: #1f1f1f;
     color: #161c3b;
@@ -24,11 +22,9 @@
 }
 
 /********************************
-            colori texts
+            colori text
 ************************************/
-
-.buttons{
-    
+.text-color{   
     color: #1f1f1f;
     color: #2d64e6;
     color: #0072ce;
@@ -38,13 +34,107 @@
 }
 
 
+.bl-color{color: #0072ce;}
+.sub-t{color: #727272;}
+.tx-desc-color{
+    color: #1f1f1f;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.tx-w-color{
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.te-color-w{color: #fff;}
+.btn-text-b{color: #2d64e6;}
+.btn.btn-light{color: #1f1f1f;}
+
+
+.br-card{
+border: 2px solid none;
+padding: 2px;
+border-radius: 10%;
+}
+
+.br-card:hover{
+    border: 2px solid #0072ce;
+    padding: 2px;
+    border-radius: 10%;}
+
+/***********************
+            BG color
+******************/
+
+.bg-color-beb{background-color: #bebcbb ;}
+.bg-color-av{ background-color: #161c3b;}
+.bg-color-footer{ background-color: #00439c;}
+.bg-color-dark-g{background-color: #1f1f1f;}
+
 /********************************
-            colori texts
+         texts size
 ************************************/
 
-
-h2{font-size: 2.5rem;}
+h2{font-size: 2.5rem; padding-bottom: 20px;}
 h3{font-size: 2.3rem;}
 h4{font-size: 1.3rem;}
 h5{font-size: 0.9rem;}
 
+
+.top-logo{
+    width: calc(100% / 12 * 1);
+    padding: 10px 5px;
+}
+
+
+.bg-hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-position: center;
+}
+
+
+.main-hero{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
+    background-position: top;
+}
+
+
+.bc-black{background-color: #000000;}
+
+:root{
+    --bs-light-rgb:#ffffff;}
+
+.lens{width: 50%;}
+
+div img{ width: 100%;}
+
+.section-small{ padding: 30px 0;}
+
+.section-medium{padding: 60px 0;}
+
+.section-tiny{padding: 10px 0;}
+
+.section-big{
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+
+.m-auto{ margin: 0 auto;}
+
+.p-20{padding: 20px 0;}
+
+.img-b{
+    border-radius: 10%;
+    object-fit: cover;
+   overflow: hidden;
+}
+.borde-bottom{
+     height: 2px;
+     width: 100%;
+    background-color: #4095DA;}
+
+ul li{list-style: none;}
+
+.nav-right{line-height: 50px;}
