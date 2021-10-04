@@ -82,15 +82,16 @@ h5{font-size: 0.9rem;}
 
 
 .top-logo{
-    width: calc(100% / 12 * 1);
-    padding: 10px 5px;
+    width: calc(100% / 12 * 1 );
+    padding: 0px 10px;
+    line-height: 40px;
 }
 
 
 .bg-hero{
     background-image: url(../img/jumbo-bg.png);
     background-size:cover;
-    background-position: center;
+    background-position: top;
 }
 
 
@@ -137,4 +138,4 @@ div img{ width: 100%;}
 
 ul li{list-style: none;}
 
-.nav-right{line-height: 50px;}
+.nav-right{line-height: 50px; padding: 0 10px;}
